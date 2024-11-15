@@ -1,7 +1,7 @@
 from flask import Flask, url_for, request, render_template, redirect
 from datetime import datetime
 from datetime import date
-import temp
+import get_games_for_today
 import pandas as pd
 from nba_api.stats.static import teams
 
