@@ -1,0 +1,11 @@
+<html>
+  <head></head>
+  <body>
+    <h3>Displaying games</h3>
+    {% for table in tables %}
+            {{titles[loop.index]}}
+            {{ table|safe }}
+            <button>Predict</button> 
+    {% endfor %}
+  </body>
+</html>
